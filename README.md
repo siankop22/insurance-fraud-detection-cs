@@ -1,5 +1,4 @@
 # AI Integration in Decision-Support Systems for Insurance Fraud Detection  
-**Extending CSU Insurance Company’s AI Implementation Proposal**  
 Author: **Thang Sian Kop (@siankop22)**  
 Year: **2024**
 
@@ -17,10 +16,8 @@ The focus is on building **interpretable**, **reproducible**, and **ethical** AI
 ---
 
 ## 🧩 Key Features
-- **Simulated Dataset (25,000 claims)** to preserve privacy while reflecting real-world insurance data distributions  
 - **Model Training Pipeline** with `scikit-learn` for preprocessing, scaling, encoding, and evaluation  
 - **Performance Metrics** including ROC-AUC, PR-AUC, and confusion matrix visualizations  
-- **UML System Architecture Diagram** illustrating the decision-support workflow  
 - **Ethical AI Considerations** emphasizing fairness, privacy, and explainability  
 - **APA-Formatted Research Paper** (`docs/research_paper.pdf`)
 
