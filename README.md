@@ -62,7 +62,6 @@ reports/figures/pr_curves.png
 | Decision Tree | 0.86 | 0.61 | Most interpretable, audit-friendly |
 
 ## 🧮 Research Context
-This repository implements the experimental component of *Kop (2023)* — **“Incorporating AI into CSU Insurance Company.”**  
 The project explores:
 - Interpretability and trust in AI-based decision support  
 - Model transparency and ethical AI governance  
