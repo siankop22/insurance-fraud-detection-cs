@@ -19,21 +19,6 @@ This project integrates **machine learning** into an insurance company’s opera
 - **Libraries:** pandas · numpy · scikit-learn · matplotlib · joblib  
 - **Environment:** macOS + VS Code  
 
-## 📂 Repository Structure
-```
-insurance-fraud-detection-cs/
-├── src/
-│   ├── data_simulation.py     # Generates synthetic insurance claims dataset
-│   ├── train.py               # Trains DecisionTree, RandomForest, and MLP models
-│   ├── evaluate.py            # Evaluates models and generates ROC/PR plots
-│   └── utils.py               # Helper functions for loading models
-├── requirements.txt           # Python dependencies
-├── .gitignore                 # Ignored folders/files (data, models, etc.)
-├── README.md                  # Project documentation
-├── data/                      # Auto-created dataset directory
-├── models/                    # Trained models (.joblib)
-└── reports/figures/           # ROC and PR curve images
-```
 
 ## 🚀 How to Run (on macOS or Linux)
 
