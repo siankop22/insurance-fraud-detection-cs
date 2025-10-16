@@ -3,36 +3,23 @@ Author: **Thang Sian Kop (@siankop22)**
 Year: **2024**
 
 ---
-
 ## 🧠 Overview
-This project iz incorporating Artificial Intelligence (AI) into insurance operations.  
-The project implements and evaluates an **AI-driven decision-support framework** for detecting fraudulent claims using **machine learning models** including:
-- Decision Tree (CART)
-- Random Forest
-- Multilayer Perceptron (MLP)
+This repository contains the **research paper** *“AI Integration in Decision-Support Systems for Insurance Fraud Detection”*, authored by Thang Sian Kop as part of an applied academic research project.  
 
-The focus is on building **interpretable**, **reproducible**, and **ethical** AI systems that assist insurance analysts in making better, faster, and more transparent fraud-related decisions.
+The paper extends prior work on integrating artificial intelligence (AI) into the operations of insurance companies by developing a **decision-support framework** for fraud detection.  
+It examines how **Decision Tree**, **Random Forest**, and **Multilayer Perceptron (MLP)** models can improve claim evaluation accuracy while ensuring transparency and ethical governance in automated decision systems.  
 
----
-
-## 🧩 Key Features
-- **Model Training Pipeline** with `scikit-learn` for preprocessing, scaling, encoding, and evaluation  
-- **Performance Metrics** including ROC-AUC, PR-AUC, and confusion matrix visualizations  
-- **Ethical AI Considerations** emphasizing fairness, privacy, and explainability  
-- **APA-Formatted Research Paper** (`docs/research_paper.pdf`)
+The complete **Python implementation, dataset simulation, and model evaluation code** for this paper are available in the **main branch** of this repository.
 
 ---
 
-## 📊 Methodology Summary
-
-| Step | Description |
-|------|--------------|
-| **Data Simulation** | Synthetic dataset generated with probabilistic fraud labeling (~8% fraud rate) |
-| **Preprocessing** | Standard scaling and one-hot encoding via `ColumnTransformer` |
-| **Model Training** | Decision Tree, Random Forest, and MLPClassifier |
-| **Evaluation** | ROC-AUC and PR-AUC metrics, along with threshold analysis |
-| **Visualization** | ROC and PR plots generated using `matplotlib` |
-| **Architecture Design** | UML-inspired system diagram showing end-to-end flow |
+## 📄 Paper Summary
+The research demonstrates the feasibility of AI-assisted fraud detection by simulating a realistic insurance claims dataset and evaluating multiple machine learning models.  
+It emphasizes:
+- **Model interpretability** — ensuring explainable and auditable AI outputs.  
+- **Performance evaluation** — using ROC-AUC and PR-AUC metrics for reliability.  
+- **Ethical deployment** — aligning automation with human oversight and fairness.  
+- **Scalable design** — proposing a hybrid decision-support system integrating data science and claims operations.
 
 ---
 
@@ -45,6 +32,9 @@ The focus is on building **interpretable**, **reproducible**, and **ethical** AI
 | **Decision Tree** | 0.86 | 0.61 | Most interpretable, suitable for audit contexts |
 
 The Random Forest model demonstrated the strongest balance between precision and recall, making it suitable for production deployment with interpretability tools (e.g., SHAP or LIME).
+- This contains the finalized academic manuscript (PDF format).  
+- The **main branch** hosts all experiment scripts, reproducible pipelines, and generated figures.  
 
+---
 
 
