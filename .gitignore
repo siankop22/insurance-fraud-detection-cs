@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data and models
+data/
+models/
+reports/figures/*.png
+
+# VS Code settings
+.vscode/
