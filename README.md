@@ -3,7 +3,7 @@ Author: **Thang Sian Kop (@siankop22)**
 Year: **2024**
 
 ---
-## 🧠 Overview
+##Overview
 This repository contains the **research paper** *“AI Integration in Decision-Support Systems for Insurance Fraud Detection”*, authored by Thang Sian Kop as part of an applied academic research project.  
 
 The paper extends prior work on integrating artificial intelligence (AI) into the operations of insurance companies by developing a **decision-support framework** for fraud detection.  
@@ -13,7 +13,7 @@ The complete **Python implementation, dataset simulation, and model evaluation c
 
 ---
 
-## 📄 Paper Summary
+##Paper Summary
 The research demonstrates the feasibility of AI-assisted fraud detection by simulating a realistic insurance claims dataset and evaluating multiple machine learning models.  
 It emphasizes:
 - **Model interpretability** — ensuring explainable and auditable AI outputs.  
@@ -23,7 +23,7 @@ It emphasizes:
 
 ---
 
-## 🧪 Results Summary
+## Results Summary
 
 | Model | ROC-AUC | PR-AUC | Notes |
 |--------|----------|--------|-------|
